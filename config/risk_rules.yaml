@@ -1,0 +1,31 @@
+risk_categories:
+  uv:
+    moderate: 3
+    high: 6
+    very_high: 8
+    extreme: 11
+    weights:
+      base: 0.65
+      outdoor_exposure: 0.2
+      motorcycle: 0.15
+  pollution:
+    moderate_pm25: 25
+    high_pm25: 55
+    weights:
+      base: 0.7
+      outdoor_exposure: 0.2
+      sensitive_skin: 0.1
+  dryness:
+    low_humidity: 35
+    very_low_humidity: 20
+    weights:
+      base: 0.65
+      dry_skin: 0.2
+      wind: 0.15
+  heat:
+    warm_temperature: 28
+    high_temperature: 34
+    weights:
+      base: 0.75
+      outdoor_exposure: 0.15
+      motorcycle: 0.1
